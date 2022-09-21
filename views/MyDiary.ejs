@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Kanit:wght@300&family=Ms+Madi&display=swap');
+</style>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Keep a diary, and someday it'll keep you.</h1>
+    
+    <!-- <h3 class="secret-text"> <%=saveddate%> </h3> -->
+
+
+    <!-- <% saveddate.forEach(element => { %>
+      
+      <p  class="secret-text"><%=element%></p>
+     <br>
+    <% }); %> -->
+
+    <% userWIthSecret.forEach(element => { %>
+      <p  class="secret-text"><%=saveddate[0]%></p>
+      <p style="font-family: 'Dancing Script', cursive;" class="secret-text"><%=element%></p>
+     <br>
+    <% }); %>
+
+    
+    <hr>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
+ 

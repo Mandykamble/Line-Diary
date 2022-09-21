@@ -1,0 +1,107 @@
+
+body {
+  background-color: #E8ECEF;
+  background-image: url('./public/pexels-pixabay-531880.jpg');
+ 
+}
+
+.centered {
+    padding-top: 50px;
+    text-align: center;
+  
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+/* .container{
+  width: 600px;
+} */
+
+/*  */
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.container1{
+  width: 100%;
+  background-color: rgb(1, 35, 40);
+  overflow-x: hidden;
+  color: white;
+}
+.container1 header{
+  width: 100%;
+  height: 12vh;
+  padding: 10px 60px;
+  justify-content: space-between;
+}
+header .logo{
+  font-size: 45px;
+  font-weight: 600;
+  width: 30%;
+  margin-left: 100px;
+}
+.logo span{
+  color: #FFDE59;
+  font-size: 70px;
+}
+header nav{
+  width: 70%;
+  display: flex;
+}
+nav #search{
+  width: 17%;
+  position: relative;
+}
+#search i{
+  position: absolute;
+  color: #FFDE59;
+  top: 8px;
+  font-weight: bolder;
+  font-size: 19px;
+  left: 8px;
+}
+nav input{
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  padding-left: 33px;
+  border:2px solid #FFDE59;
+  font-size: 16px;
+  height: 13px;
+  width: 100%;
+}
+header nav ul{
+  justify-content: center;
+  width: 70%;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 25px;
+  font-weight:500;
+  color: white;
+}
+nav ul li a:hover{
+  color: #FFDE59;
+}
+
+.Diary{
+  width: 100px;
+  height: 100px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+ }
